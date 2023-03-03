@@ -16,6 +16,8 @@
 # 添加源
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
+
 
 # 应用过滤OpenAppFilter 【luci oaf app】
 # 和加速模块（Turbo ACC)有冲突，需要关闭Turboo ACC后使用
